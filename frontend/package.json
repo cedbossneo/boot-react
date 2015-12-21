@@ -53,6 +53,8 @@
   "dependencies": {
     "axios": "^0.8.1",
     "counterpart": "^0.17.1",
+    "falcor": "^0.1.15",
+    "falcor-http-datasource": "^0.1.2",
     "deep-equal": "^1.0.1",
     "history": "1.17.0",
     "isdev": "^1.0.1",
@@ -64,6 +66,7 @@
     "react-router": "1.0.3",
     "react-translate-component": "^0.10.0",
     "redux": "^3.0.5",
+    "redux-falcor": "^2.3.3",
     "redux-simple-router": "^1.0.2"
   }
 }

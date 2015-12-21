@@ -32,11 +32,13 @@ repositories {
 dependencies {
   compile 'org.springframework.boot:spring-boot-devtools'
   compile 'org.springframework.boot:spring-boot-starter-web'
-  compile 'org.codehaus.groovy:groovy'
+  compile 'org.codehaus.groovy:groovy-all'
 
   compile 'org.springframework.boot:spring-boot-starter-security'
   compile 'org.springframework.session:spring-session'
   compile 'org.springframework.boot:spring-boot-starter-redis'
+  compile 'com.netflix.falcor:falcor-model:0.30.0'
+  compile 'com.netflix.falcor:falcor-router:0.30.0'
 
   testCompile 'org.springframework.boot:spring-boot-starter-test'
   testCompile 'org.springframework.security:spring-security-test'
